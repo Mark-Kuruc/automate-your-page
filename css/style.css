@@ -1,0 +1,66 @@
+/* Define body of webpage style */
+body {
+	padding: 20px 10px;
+	background-color: white;
+	font-family: Arial;
+	max-width: 2000px;
+	margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+	font-size: 1.4em;
+}      
+/* Define header style(s) */
+h1 {
+	text-align: center;
+	color: #2D00FF;
+	font-family: Verdana
+}
+
+
+h2 {
+	text-align: left;
+	color: white;
+}
+
+/* Define lesson style(s). Orange box around topics in lesson. */
+.lesson {
+	background-color: #FF9100;
+	border-radius: 25px;
+	color: white;
+	padding: 12px;
+	margin: 20px auto;
+}
+
+/* Define topic style(s). Light orange box around specific topic in lesson. */
+.topic {
+	background-color: #F5C586;
+	padding: 4px;
+	margin: 10px auto;
+	border-radius: 4px;
+	color: black;
+	border-style: outset;
+	border-color: #2D00FF;
+}
+
+/* Define topic title style(s). Define title box within light orange box for a specific topic in a lesson. */
+.topic-title {
+	font-size: 28px;
+	font-weight: bold;
+	margin: 20px auto;
+	text-align: center;
+}
+
+/* Define topic-body style(s). Define text style within a specific topic in a lesson. */
+.topic-body {
+	text-align: left;
+}
+
+/*
+* {
+   outline: 1px solid red !important;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+*/
